@@ -78,10 +78,10 @@
                     //                         ┃     '     ┃     0     ┃     -     ┃   ┃           ┃           ┃           ┃
                     //                         ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
                     bindings = <
-                        &kp GRAVE    &kp N7      &kp N8      &kp N9      &kp EQUAL      &none       &none       &none       &none       &none 
-                        &kp LPAR     &kp N4      &kp N5      &kp N6      &kp RPAR       &none       &kp RSHFT   &kp RCTRL   &kp RALT    &kp RGUI
-                        &kp LBKT     &kp N1      &kp N2      &kp N3      &kp RBKT       &none       &none       &none       &none       &none
-                                                 &kp SQT     &kp N0      &kp MINUS      &none       &none       &none 
+                        &kp LBKT     &kp N7      &kp N8      &kp N9      &kp RBKT       &none       &none       &none       &none       &none 
+                        &kp LPAR     &kp N4      &kp N5      &kp N6      &kp EQUAL      &none       &kp RSHFT   &kp RCTRL   &kp RALT    &kp RGUI
+                        &kp GRAVE    &kp N1      &kp N2      &kp N3      &kp BSLH       &none       &none       &none       &none       &none
+                                                 &kp DOT     &kp N0      &kp MINUS      &none       &none       &none 
                     >;
                 };
 
@@ -97,10 +97,10 @@
                     //                         ┃     "     ┃     :     ┃     _     ┃   ┃           ┃           ┃           ┃
                     //                         ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
                     bindings = <
-                        &kp TILDE   &kp AMPS    &kp ASTRK   &kp SEMI    &kp PLUS        &none       &none       &none       &none       &none
-                        &kp LBRC    &kp DLLR    &kp PRCNT   &kp CARET   &kp RBRC        &none       &kp RSHFT   &kp RCTRL   &kp RALT    &kp RGUI
-                        &kp LT      &kp EXCL    &kp AT      &kp HASH    &kp GT          &none       &none       &none       &none       &none
-                                                &kp DQT     &kp COLON   &kp UNDER       &none       &none       &none
+                        &kp LBRC   &kp AMPS    &kp ASTRK   &kp SEMI    &kp RBRC        &none       &none       &none       &none       &none
+                        &kp COLON    &kp DLLR    &kp PRCNT   &kp CARET   &kp PLUS        &none       &kp RSHFT   &kp RCTRL   &kp RALT    &kp RGUI
+                        &kp TILDE      &kp EXCL    &kp AT      &kp HASH    &kp PIPE          &none       &none       &none       &none       &none
+                                                &kp LPAR    &kp RPAR    &kp UNDER       &none       &none       &none
                     >;
                 };
 
