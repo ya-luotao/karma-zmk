@@ -1,0 +1,263 @@
+layers:
+  ABC:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - H
+  - {t: J, h: RSHFT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RALT}
+  - {t: '''', h: RGUI}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: ESC, h: MED}
+  - {t: SPACE, h: NAV}
+  - {t: TAB, h: OPR}
+  - {t: RET, h: SYM}
+  - {t: BSPC, h: NUM}
+  - {t: DEL, h: FUN}
+  NUM:
+  - '['
+  - '7'
+  - '8'
+  - '9'
+  - ']'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - (
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - ''
+  - RSHFT
+  - RCTRL
+  - RALT
+  - RGUI
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - \
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - .
+  - '0'
+  - '-'
+  - ''
+  - {type: held}
+  - ''
+  SYM:
+  - '{'
+  - '&'
+  - '*'
+  - ;
+  - '}'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ':'
+  - $
+  - '%'
+  - ^
+  - +
+  - ''
+  - RSHFT
+  - RCTRL
+  - RALT
+  - RGUI
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - '|'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - (
+  - )
+  - _
+  - {type: held}
+  - ''
+  - ''
+  FUN:
+  - ''
+  - F7
+  - F8
+  - F9
+  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F4
+  - F5
+  - F6
+  - F11
+  - ''
+  - RSHFT
+  - RCTRL
+  - RALT
+  - RGUI
+  - ''
+  - F1
+  - F2
+  - F3
+  - F10
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  NAV:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
+  - REDO
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - '&caps_word'
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - INS
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - ''
+  - {type: held}
+  - ''
+  - DEL
+  - RET
+  - BSPC
+  MED:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BRI MIN
+  - BRI DN
+  - PSCRN
+  - BRI UP
+  - BRI MAX
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - RW
+  - PREV
+  - PP
+  - NEXT
+  - FF
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - VOL DN
+  - MUTE
+  - VOL UP
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  OPR:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTRL
+  - LSHFT
+  - ''
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: BT, h: '5'}
+  - '&bootloader'
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - BT CLR ALL
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+combos:
+- p: [0, 1]
+  k: ESC
