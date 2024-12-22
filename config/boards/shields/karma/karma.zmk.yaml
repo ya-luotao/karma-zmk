@@ -6,6 +6,7 @@ url: https://github.com/achyudh/karma
 requires: [seeeduino_xiao_ble]
 features:
   - keys
+  - studio
 siblings:
   - karma_left
   - karma_right
