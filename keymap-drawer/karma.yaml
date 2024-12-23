@@ -258,6 +258,3 @@ layers:
   - ''
   - ''
   - ''
-combos:
-- p: [0, 1]
-  k: ESC
